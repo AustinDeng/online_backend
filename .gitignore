@@ -1,0 +1,11 @@
+# 由于相关政策的原因, 项目会上传依赖包
+# /vendor/*
+# !/vendor/vendor.json
+
+.vscode/
+.idea/
+.DS_Store
+
+runtime/*
+!runtime/qrcode/bg.jpg
+!runtime/fonts
