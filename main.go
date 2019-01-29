@@ -2,11 +2,13 @@ package main
 
 import (
 	"online_backend/package/setting"
+	"online_backend/model"
 	"online_backend/routes"
 )
 
 func main() {
 	setting.Setup()
+	model.Setup()
 
 	routersInit := routes.InitRouter()
 	routersInit.Run(":8080")
