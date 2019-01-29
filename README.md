@@ -11,8 +11,8 @@
     - [x] 使用 [swagger](https://github.com/swaggo/swag) 管理 API 文档
 - [ ] 模型设计
     - [ ] User 用户
-        -[ ] JWT
-        -[ ] 登录注册逻辑
+        - [ ] JWT
+        - [ ] 登录注册逻辑
     - [ ] Category 分类
     - [ ] Comment 留言/评论
     - [ ] Genre 资源类型
